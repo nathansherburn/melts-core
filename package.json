@@ -1,0 +1,29 @@
+{
+  "name": "melts-core",
+  "version": "1.0.0",
+  "description": "The melts core server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathansherburn/melts-core.git"
+  },
+  "author": "Nathan Sherburn and Jonathan Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathansherburn/melts-core/issues"
+  },
+  "homepage": "https://github.com/nathansherburn/melts-core",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.2",
+    "mongoose": "^3.8.24"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.0",
+    "superagent": "^0.21.0"
+  }
+}
